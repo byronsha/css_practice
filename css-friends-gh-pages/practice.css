@@ -1,0 +1,78 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: inherit;
+  font: inherit;
+  text-decoration: inherit;
+  text-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: inherit;
+  height: auto;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+textarea,
+button {
+  appearance: none;
+  cursor: hand;
+}
+
+button,
+input[type="submit"] {
+  appearance: none;
+  cursor: hand;
+}
+
+/* Clearfix */
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 2000px;
+  background-color: #f00;
+}
+
+.header-nav {
+  display: block;
+  position: fixed;
+  width: 400px;
+  height: 50px;
+  background-color: #000;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+.header-logo {
+  float: right;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 25px;
+  margin-left: auto;
+  background-color: #0c0;
+}
